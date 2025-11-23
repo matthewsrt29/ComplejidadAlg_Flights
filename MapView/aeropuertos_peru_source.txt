@@ -1,0 +1,134 @@
+digraph Aeropuertos_Peru {
+	rankdir=LR size="10,8"
+	node [fontsize=11 shape=ellipse style=filled]
+	AOP [label=Andoas fillcolor=lightcoral fontcolor=black]
+	IBP [label=Iberia fillcolor=lightcoral fontcolor=black]
+	PCL [label=Pucallpa fillcolor=lightcoral fontcolor=black]
+	CHM [label=Chimbote fillcolor=lightcoral fontcolor=black]
+	CIX [label=Chiclayo fillcolor=lightcoral fontcolor=black]
+	AYP [label=Ayacucho fillcolor=lightcoral fontcolor=black]
+	ANS [label=Andahuaylas fillcolor=lightcoral fontcolor=black]
+	ATA [label=Anta fillcolor=lightcoral fontcolor=black]
+	LIM [label=Lima fillcolor=lightcoral fontcolor=black]
+	JJI [label=Juanjui fillcolor=lightcoral fontcolor=black]
+	JAU [label=Jauja fillcolor=lightcoral fontcolor=black]
+	JUL [label=Juliaca fillcolor=lightcoral fontcolor=black]
+	ILQ [label=Ilo fillcolor=lightcoral fontcolor=black]
+	TBP [label=Tumbes fillcolor=lightcoral fontcolor=black]
+	YMS [label=Yurimaguas fillcolor=lightcoral fontcolor=black]
+	CHH [label=Chachapoyas fillcolor=lightcoral fontcolor=black]
+	IQT [label=Iquitos fillcolor=lightcoral fontcolor=black]
+	AQP [label=Arequipa fillcolor=lightcoral fontcolor=black]
+	TRU [label=Trujillo fillcolor=lightcoral fontcolor=black]
+	PIO [label=Pisco fillcolor=lightcoral fontcolor=black]
+	TPP [label=Tarapoto fillcolor=lightcoral fontcolor=black]
+	TCQ [label=Tacna fillcolor=lightcoral fontcolor=black]
+	PEM [label="Puerto Maldonado" fillcolor=lightcoral fontcolor=black]
+	PIU [label=Piura fillcolor=lightcoral fontcolor=black]
+	TYL [label=Talara fillcolor=lightcoral fontcolor=black]
+	CUZ [label=Cuzco fillcolor=lightcoral fontcolor=black]
+	CJA [label=Cajamarca fillcolor=lightcoral fontcolor=black]
+	HUU [label="Huánuco" fillcolor=lightcoral fontcolor=black]
+	NZC [label=Nazca fillcolor=lightcoral fontcolor=black]
+	TGI [label="Tingo Maria" fillcolor=lightcoral fontcolor=black]
+	RIJ [label=Rioja fillcolor=lightcoral fontcolor=black]
+	JAE [label="Jaén" fillcolor=lightcoral fontcolor=black]
+	AYP -> LIM
+	CUZ -> LIM
+	CUZ -> PEM
+	HUU -> LIM
+	IQT -> PCL
+	IQT -> TPP
+	LIM -> AYP
+	LIM -> CUZ
+	LIM -> HUU
+	LIM -> PCL
+	LIM -> TPP
+	PCL -> IQT
+	PCL -> LIM
+	PCL -> TPP
+	PEM -> CUZ
+	TPP -> IQT
+	TPP -> LIM
+	TPP -> PCL
+	AQP -> LIM
+	JUL -> AQP
+	AQP -> JUL
+	CUZ -> LIM
+	JUL -> CUZ
+	LIM -> AQP
+	AQP -> LIM
+	CUZ -> JUL
+	JUL -> AQP
+	LIM -> CUZ
+	AQP -> LIM
+	CUZ -> JUL
+	JUL -> AQP
+	LIM -> CUZ
+	AQP -> CUZ
+	AQP -> JUL
+	AQP -> LIM
+	CIX -> LIM
+	CJA -> LIM
+	CUZ -> AQP
+	CUZ -> JUL
+	CUZ -> LIM
+	CUZ -> PEM
+	IQT -> LIM
+	IQT -> TPP
+	JUL -> AQP
+	JUL -> CUZ
+	JUL -> LIM
+	LIM -> AQP
+	LIM -> CIX
+	LIM -> CJA
+	LIM -> CUZ
+	LIM -> IQT
+	LIM -> JUL
+	LIM -> PCL
+	LIM -> PEM
+	LIM -> PIU
+	LIM -> TBP
+	LIM -> TCQ
+	LIM -> TPP
+	LIM -> TRU
+	PCL -> LIM
+	PEM -> CUZ
+	PEM -> LIM
+	PIU -> LIM
+	TBP -> LIM
+	TCQ -> LIM
+	TPP -> IQT
+	TPP -> LIM
+	TRU -> LIM
+	AQP -> LIM
+	AQP -> TCQ
+	CUZ -> LIM
+	IQT -> LIM
+	IQT -> PCL
+	LIM -> AQP
+	LIM -> CUZ
+	LIM -> IQT
+	LIM -> PCL
+	LIM -> PIU
+	LIM -> TPP
+	PCL -> IQT
+	PCL -> LIM
+	PIU -> LIM
+	TCQ -> AQP
+	TPP -> LIM
+	ANS -> LIM
+	ATA -> LIM
+	AYP -> LIM
+	CJA -> LIM
+	HUU -> LIM
+	JAU -> LIM
+	LIM -> ANS
+	LIM -> ATA
+	LIM -> AYP
+	LIM -> CJA
+	LIM -> HUU
+	LIM -> JAU
+	LIM -> TGI
+	TGI -> LIM
+}

@@ -1,0 +1,90 @@
+// Red de Vuelos - Subgrafo Perú
+digraph {
+	rankdir=LR size="10,8"
+	AOP [label="AOP
+Andoas" fillcolor=lightblue style=filled]
+	IBP [label="IBP
+Iberia" fillcolor=lightblue style=filled]
+	PCL [label="PCL
+Pucallpa" fillcolor=lightblue style=filled]
+	CHM [label="CHM
+Chimbote" fillcolor=lightblue style=filled]
+	CIX [label="CIX
+Chiclayo" fillcolor=lightblue style=filled]
+	AYP [label="AYP
+Ayacucho" fillcolor=lightblue style=filled]
+	ANS [label="ANS
+Andahuaylas" fillcolor=lightblue style=filled]
+	ATA [label="ATA
+Anta" fillcolor=lightblue style=filled]
+	LIM [label="LIM
+Lima" fillcolor=lightblue style=filled]
+	JJI [label="JJI
+Juanjui" fillcolor=lightblue style=filled]
+	JAU [label="JAU
+Jauja" fillcolor=lightblue style=filled]
+	JUL [label="JUL
+Juliaca" fillcolor=lightblue style=filled]
+	ILQ [label="ILQ
+Ilo" fillcolor=lightblue style=filled]
+	TBP [label="TBP
+Tumbes" fillcolor=lightblue style=filled]
+	YMS [label="YMS
+Yurimaguas" fillcolor=lightblue style=filled]
+	CHH [label="CHH
+Chachapoyas" fillcolor=lightblue style=filled]
+	IQT [label="IQT
+Iquitos" fillcolor=lightblue style=filled]
+	AQP [label="AQP
+Arequipa" fillcolor=lightblue style=filled]
+	TRU [label="TRU
+Trujillo" fillcolor=lightblue style=filled]
+	PIO [label="PIO
+Pisco" fillcolor=lightblue style=filled]
+	AYP -> LIM
+	IQT -> PCL
+	LIM -> AYP
+	LIM -> PCL
+	PCL -> IQT
+	PCL -> LIM
+	AQP -> LIM
+	JUL -> AQP
+	AQP -> JUL
+	LIM -> AQP
+	AQP -> LIM
+	JUL -> AQP
+	AQP -> LIM
+	JUL -> AQP
+	AQP -> JUL
+	AQP -> LIM
+	CIX -> LIM
+	IQT -> LIM
+	JUL -> AQP
+	JUL -> LIM
+	LIM -> AQP
+	LIM -> CIX
+	LIM -> IQT
+	LIM -> JUL
+	LIM -> PCL
+	LIM -> TBP
+	LIM -> TRU
+	PCL -> LIM
+	TBP -> LIM
+	TRU -> LIM
+	AQP -> LIM
+	IQT -> LIM
+	IQT -> PCL
+	LIM -> AQP
+	LIM -> IQT
+	LIM -> PCL
+	PCL -> IQT
+	PCL -> LIM
+	ANS -> LIM
+	ATA -> LIM
+	AYP -> LIM
+	JAU -> LIM
+	LIM -> ANS
+	LIM -> ATA
+	LIM -> AYP
+	LIM -> JAU
+}

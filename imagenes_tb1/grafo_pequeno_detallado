@@ -1,0 +1,274 @@
+digraph Grafo_Detallado {
+	dpi=300 rankdir=LR size="16,12"
+	node [fontsize=10 margin="0.3,0.2" shape=box style="filled,rounded"]
+	LIM [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>LIM</B></TD></TR>
+            <TR><TD>Jorge Chávez International Air</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Lima</TD></TR>
+            <TR><TD ALIGN="LEFT">País: Peru</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: -12.02</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -77.11</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 230</TD></TR>
+            </TABLE>> fillcolor="#c4302b" fontcolor=white]
+	CUZ [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>CUZ</B></TD></TR>
+            <TR><TD>Alejandro Velasco Astete Inter</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Cuzco</TD></TR>
+            <TR><TD ALIGN="LEFT">País: Peru</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: -13.54</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -71.94</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 22</TD></TR>
+            </TABLE>> fillcolor="#c4302b" fontcolor=white]
+	AQP [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>AQP</B></TD></TR>
+            <TR><TD>Rodríguez Ballón International</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Arequipa</TD></TR>
+            <TR><TD ALIGN="LEFT">País: Peru</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: -16.34</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -71.58</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 20</TD></TR>
+            </TABLE>> fillcolor="#c4302b" fontcolor=white]
+	IQT [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>IQT</B></TD></TR>
+            <TR><TD>Coronel FAP Francisco Secada V</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Iquitos</TD></TR>
+            <TR><TD ALIGN="LEFT">País: Peru</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: -3.78</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -73.31</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 14</TD></TR>
+            </TABLE>> fillcolor="#c4302b" fontcolor=white]
+	JUL [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>JUL</B></TD></TR>
+            <TR><TD>Inca Manco Capac International</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Juliaca</TD></TR>
+            <TR><TD ALIGN="LEFT">País: Peru</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: -15.47</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -70.16</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 13</TD></TR>
+            </TABLE>> fillcolor="#c4302b" fontcolor=white]
+	ATL [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>ATL</B></TD></TR>
+            <TR><TD>Hartsfield Jackson Atlanta Int</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Atlanta</TD></TR>
+            <TR><TD ALIGN="LEFT">País: United States</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 33.64</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -84.43</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 1826</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	CDG [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>CDG</B></TD></TR>
+            <TR><TD>Charles de Gaulle Internationa</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Paris</TD></TR>
+            <TR><TD ALIGN="LEFT">País: France</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 49.01</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: 2.55</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 1041</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	LAX [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>LAX</B></TD></TR>
+            <TR><TD>Los Angeles International Airp</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Los Angeles</TD></TR>
+            <TR><TD ALIGN="LEFT">País: United States</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 33.94</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -118.41</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 986</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	DFW [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>DFW</B></TD></TR>
+            <TR><TD>Dallas Fort Worth Internationa</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Dallas-Fort Worth</TD></TR>
+            <TR><TD ALIGN="LEFT">País: United States</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 32.90</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -97.04</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 936</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	JFK [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>JFK</B></TD></TR>
+            <TR><TD>John F Kennedy International A</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: New York</TD></TR>
+            <TR><TD ALIGN="LEFT">País: United States</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 40.64</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -73.78</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 911</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	AMS [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>AMS</B></TD></TR>
+            <TR><TD>Amsterdam Airport Schiphol</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Amsterdam</TD></TR>
+            <TR><TD ALIGN="LEFT">País: Netherlands</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 52.31</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: 4.76</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 903</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	MIA [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>MIA</B></TD></TR>
+            <TR><TD>Miami International Airport</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Miami</TD></TR>
+            <TR><TD ALIGN="LEFT">País: United States</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 25.79</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -80.29</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 734</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	MAD [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>MAD</B></TD></TR>
+            <TR><TD>Adolfo Suárez Madrid–Barajas A</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Madrid</TD></TR>
+            <TR><TD ALIGN="LEFT">País: Spain</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 40.47</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -3.56</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 661</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	YYZ [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>YYZ</B></TD></TR>
+            <TR><TD>Lester B. Pearson Internationa</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Toronto</TD></TR>
+            <TR><TD ALIGN="LEFT">País: Canada</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 43.68</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -79.63</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 636</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	EWR [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+            <TR><TD><B>EWR</B></TD></TR>
+            <TR><TD>Newark Liberty International A</TD></TR>
+            <TR><TD>━━━━━━━━━━━━━━━</TD></TR>
+            <TR><TD ALIGN="LEFT">Ciudad: Newark</TD></TR>
+            <TR><TD ALIGN="LEFT">País: United States</TD></TR>
+            <TR><TD ALIGN="LEFT">Lat: 40.69</TD></TR>
+            <TR><TD ALIGN="LEFT">Lon: -74.17</TD></TR>
+            <TR><TD ALIGN="LEFT">Conexiones: 505</TD></TR>
+            </TABLE>> fillcolor="#4a90e2" fontcolor=white]
+	CUZ -> LIM [label=" 2I " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> CUZ [label=" 2I " arrowsize=0.7 color="#666666" fontsize=8]
+	AQP -> LIM [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> DFW [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> MIA [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> DFW [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> JFK [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> MIA [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> ATL [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> CDG [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> EWR [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> JFK [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> LAX [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> LIM [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> MAD [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> MIA [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> YYZ [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	EWR -> DFW [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	EWR -> MIA [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	JFK -> CDG [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	JFK -> DFW [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	JFK -> LAX [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	JFK -> LIM [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	JFK -> MAD [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	JFK -> MIA [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	JFK -> YYZ [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	JUL -> AQP [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> DFW [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> JFK [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> LIM [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> MAD [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> MIA [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> YYZ [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> DFW [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> JFK [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> LAX [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> MIA [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MAD -> DFW [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MAD -> JFK [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MAD -> LAX [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MAD -> MIA [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> ATL [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> CDG [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> DFW [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> EWR [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> JFK [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> LAX [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> LIM [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> MAD [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> YYZ [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	YYZ -> DFW [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	YYZ -> JFK [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	YYZ -> LAX [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	YYZ -> MIA [label=" AA " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> YYZ [label=" AC " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> YYZ [label=" AC " arrowsize=0.7 color="#666666" fontsize=8]
+	EWR -> YYZ [label=" AC " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> YYZ [label=" AC " arrowsize=0.7 color="#666666" fontsize=8]
+	YYZ -> ATL [label=" AC " arrowsize=0.7 color="#666666" fontsize=8]
+	YYZ -> CDG [label=" AC " arrowsize=0.7 color="#666666" fontsize=8]
+	YYZ -> EWR [label=" AC " arrowsize=0.7 color="#666666" fontsize=8]
+	YYZ -> LIM [label=" AC " arrowsize=0.7 color="#666666" fontsize=8]
+	AMS -> CDG [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> CDG [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> EWR [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> JFK [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> LAX [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> MAD [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> AMS [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> ATL [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> EWR [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> LAX [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> LIM [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	CDG -> MAD [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	EWR -> ATL [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	EWR -> CDG [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	JFK -> ATL [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> ATL [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> CDG [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> CDG [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	MAD -> ATL [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	MAD -> CDG [label=" AF " arrowsize=0.7 color="#666666" fontsize=8]
+	AQP -> JUL [label=" AM " arrowsize=0.7 color="#666666" fontsize=8]
+	JUL -> CUZ [label=" AM " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> AQP [label=" AM " arrowsize=0.7 color="#666666" fontsize=8]
+	AMS -> LIM [label=" AZ " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> AMS [label=" AZ " arrowsize=0.7 color="#666666" fontsize=8]
+	AMS -> ATL [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	AMS -> DFW [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	AMS -> EWR [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	AMS -> JFK [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	AMS -> LAX [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	AMS -> YYZ [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> AMS [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	ATL -> LIM [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	DFW -> AMS [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	EWR -> AMS [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	JFK -> AMS [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> AMS [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> ATL [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	YYZ -> AMS [label=" DL " arrowsize=0.7 color="#666666" fontsize=8]
+	CUZ -> JUL [label=" IB " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> MAD [label=" IB " arrowsize=0.7 color="#666666" fontsize=8]
+	MAD -> LIM [label=" IB " arrowsize=0.7 color="#666666" fontsize=8]
+	AMS -> MAD [label=" KL " arrowsize=0.7 color="#666666" fontsize=8]
+	MAD -> AMS [label=" KL " arrowsize=0.7 color="#666666" fontsize=8]
+	AQP -> CUZ [label=" LA " arrowsize=0.7 color="#666666" fontsize=8]
+	CUZ -> AQP [label=" LA " arrowsize=0.7 color="#666666" fontsize=8]
+	IQT -> LIM [label=" LA " arrowsize=0.7 color="#666666" fontsize=8]
+	JUL -> LIM [label=" LA " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> IQT [label=" LA " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> JUL [label=" LA " arrowsize=0.7 color="#666666" fontsize=8]
+	EWR -> MAD [label=" LH " arrowsize=0.7 color="#666666" fontsize=8]
+	MAD -> EWR [label=" LH " arrowsize=0.7 color="#666666" fontsize=8]
+	MIA -> AMS [label=" OR " arrowsize=0.7 color="#666666" fontsize=8]
+	EWR -> LAX [label=" UA " arrowsize=0.7 color="#666666" fontsize=8]
+	EWR -> LIM [label=" UA " arrowsize=0.7 color="#666666" fontsize=8]
+	LAX -> EWR [label=" UA " arrowsize=0.7 color="#666666" fontsize=8]
+	LIM -> EWR [label=" UA " arrowsize=0.7 color="#666666" fontsize=8]
+	fontsize=12 label="\n\nGrafo detallado de red de vuelos desde Perú\nNodos rojos: Aeropuertos peruanos | Nodos azules: Destinos internacionales" labelloc=b
+}
