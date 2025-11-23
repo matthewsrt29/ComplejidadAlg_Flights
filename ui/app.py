@@ -38,7 +38,7 @@ def main():
 
     with st.sidebar:
         st.header("Buscar Vuelos")
-        origin, destination = render_search_form(airports)
+        origin, destination = render_search_form(airports, routes)
 
         st.header("Filtros")
         filters = render_filters()

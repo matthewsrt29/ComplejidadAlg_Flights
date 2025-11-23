@@ -1,8 +1,13 @@
 import streamlit as st
 
 
-def render_search_form(airports):
-    airport_codes = sorted(airports.keys())
+def render_search_form(airports, routes):
+    airports_with_routes = set()
+    for route in routes:
+        airports_with_routes.add(route['origen'])
+        airports_with_routes.add(route['destino'])
+
+    airport_codes = sorted([code for code in airports.keys() if code in airports_with_routes])
     airport_options = {
         code: f"{airports[code]['ciudad']}, {airports[code]['pais']} ({code})"
         for code in airport_codes
