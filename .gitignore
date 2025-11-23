@@ -23,5 +23,3 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 
-# Datos procesados (opcional - si son muy grandes)
-data/processed/*.json
